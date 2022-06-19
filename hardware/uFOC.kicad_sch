@@ -1,0 +1,99 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 85.09 102.87) (size 24.13 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 201da9bb-18a8-4628-9f72-99fe7bd0fa03)
+    (property "Sheet name" "Driver" (id 0) (at 85.09 102.1584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "driver.kicad_sch" (id 1) (at 85.09 118.6946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 83.82 62.23) (size 25.4 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2d1af4b2-022f-4455-819b-78883658e880)
+    (property "Sheet name" "Power" (id 0) (at 83.82 61.5184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "power.kicad_sch" (id 1) (at 83.82 83.1346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 83.82 129.54) (size 29.21 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6182facb-9838-4626-8330-5d06c1a16807)
+    (property "Sheet name" "Sense" (id 0) (at 83.82 128.8284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "sense.kicad_sch" (id 1) (at 83.82 149.1746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 160.02 74.93) (size 27.94 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid a13ab237-8f8d-4e16-8c47-4440653b8534)
+    (property "Sheet name" "Microcontroller" (id 0) (at 160.02 74.2184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "microcontroller.kicad_sch" (id 1) (at 160.02 102.1846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/a13ab237-8f8d-4e16-8c47-4440653b8534" (page "2"))
+    (path "/2d1af4b2-022f-4455-819b-78883658e880" (page "3"))
+    (path "/201da9bb-18a8-4628-9f72-99fe7bd0fa03" (page "4"))
+    (path "/6182facb-9838-4626-8330-5d06c1a16807" (page "5"))
+  )
+
+  (symbol_instances
+    (path "/a13ab237-8f8d-4e16-8c47-4440653b8534/00e7ea8c-e93e-42aa-9745-be73648f71ea"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/a13ab237-8f8d-4e16-8c47-4440653b8534/3969cc9d-4050-4828-92ef-ebe9eb9272f5"
+      (reference "#PWR?") (unit 1) (value "GNDD") (footprint "")
+    )
+    (path "/a13ab237-8f8d-4e16-8c47-4440653b8534/904db398-a8d8-47c3-aa6a-e11e8d4147a9"
+      (reference "#PWR?") (unit 1) (value "GNDD") (footprint "")
+    )
+    (path "/a13ab237-8f8d-4e16-8c47-4440653b8534/c9f5eacc-6199-44ad-a4da-a2a67aa9658d"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/a13ab237-8f8d-4e16-8c47-4440653b8534/f0a9c928-e061-41d7-ae3d-875296a942dc"
+      (reference "#PWR?") (unit 1) (value "GNDD") (footprint "")
+    )
+    (path "/a13ab237-8f8d-4e16-8c47-4440653b8534/78b9c1f9-e8b7-44f3-8f69-6931cf401344"
+      (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/a13ab237-8f8d-4e16-8c47-4440653b8534/7bf96760-b68f-435c-bd16-d040ff54929a"
+      (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/a13ab237-8f8d-4e16-8c47-4440653b8534/840a6cb5-9100-4520-a6e2-8b2125373610"
+      (reference "C?") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/a13ab237-8f8d-4e16-8c47-4440653b8534/e443710e-3c53-4bac-9e78-a97708d6f725"
+      (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/a13ab237-8f8d-4e16-8c47-4440653b8534/fd3d7f39-592a-4cd2-b369-8c6e207395d7"
+      (reference "U?") (unit 1) (value "ATSAMD21G18A-M") (footprint "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm")
+    )
+  )
+)
