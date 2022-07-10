@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "EVQ-P2402M")(type "KiCad")(uri "${KIPRJMOD}/lib/EVQ-P2402M/EVQ-P2402M.pretty")(options "")(descr ""))
+)
