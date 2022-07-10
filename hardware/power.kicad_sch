@@ -1255,6 +1255,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9e97d03d-7ffc-4e8c-9f5b-fdbb5787dbe7)
   )
+  (text "physically partition grounds	" (at 101.6 116.84 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d8f42a91-2a77-45e3-947a-62e93db064b0)
+  )
   (text "Vaa is 1.65V for half scale reference for\nbidirectional current sensor."
     (at 203.2 20.32 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
