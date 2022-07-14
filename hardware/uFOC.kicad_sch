@@ -221,6 +221,9 @@
     (path "/a13ab237-8f8d-4e16-8c47-4440653b8534/a76d3767-d9a3-40b9-a032-4d3a25ffc281"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/a13ab237-8f8d-4e16-8c47-4440653b8534/d01f442a-8969-4c0c-9897-369f074a5eb4"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/a13ab237-8f8d-4e16-8c47-4440653b8534/f5598c2a-9770-42ef-a6e7-85cd383e1731"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
@@ -328,6 +331,9 @@
     )
     (path "/a13ab237-8f8d-4e16-8c47-4440653b8534/3efc1f10-ea5a-48b4-b8f7-d1531236ff8d"
       (reference "J?") (unit 1) (value "Conn_ARM_JTAG_SWD_10") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD")
+    )
+    (path "/a13ab237-8f8d-4e16-8c47-4440653b8534/b4be809d-92fc-41c4-9512-e9cb4265f044"
+      (reference "J?") (unit 1) (value "USB_B_Micro") (footprint "Connector_USB:USB_Micro-B_Molex_47346-0001")
     )
     (path "/2d1af4b2-022f-4455-819b-78883658e880/900d37a7-e285-42a9-b71c-24bbe5579a19"
       (reference "L1") (unit 1) (value "10u") (footprint "Inductor_SMD:L_Taiyo-Yuden_MD-3030")
