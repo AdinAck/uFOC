@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?application progid="SMath Studio Desktop" version="1.0.8151.26392"?>
+<?application progid="SMath Studio Desktop" version="1.0.8238.30484"?>
 <worksheet xmlns="http://smath.info/schemas/worksheet/1.0">
   <settings ppi="120">
     <identity>
       <id>94e9b15d-0fee-4e04-8892-9b510adf0253</id>
-      <revision>5</revision>
+      <revision>6</revision>
     </identity>
     <calculation>
       <precision>4</precision>
@@ -12,6 +12,7 @@
       <trailingZeros>false</trailingZeros>
       <significantDigitsMode>false</significantDigitsMode>
       <roundingMode>0</roundingMode>
+      <approximateEqualAccuracy>0</approximateEqualAccuracy>
       <fractions>decimal</fractions>
     </calculation>
     <pageModel active="false" viewMode="2" printGrid="false" printAreas="true" simpleEqualsOnly="false" printBackgroundImages="true">
@@ -22,10 +23,10 @@
       <backgrounds />
     </pageModel>
     <dependencies>
-      <assembly name="SMath Studio Desktop" version="1.0.8151.26392" guid="a37cba83-b69c-4c71-9992-55ff666763bd" />
-      <assembly name="MathRegion" version="1.11.8151.26392" guid="02f1ab51-215b-466e-a74d-5d8b1cf85e8d" />
-      <assembly name="PictureRegion" version="1.10.8151.26392" guid="06b5df04-393e-4be7-9107-305196fcb861" />
-      <assembly name="TextRegion" version="1.11.8151.26392" guid="485d28c5-349a-48b6-93be-12a35a1c1e39" />
+      <assembly name="SMath Studio Desktop" version="1.0.8238.30484" guid="a37cba83-b69c-4c71-9992-55ff666763bd" />
+      <assembly name="MathRegion" version="1.11.8238.30484" guid="02f1ab51-215b-466e-a74d-5d8b1cf85e8d" />
+      <assembly name="PictureRegion" version="1.10.8238.30484" guid="06b5df04-393e-4be7-9107-305196fcb861" />
+      <assembly name="TextRegion" version="1.11.8238.30484" guid="485d28c5-349a-48b6-93be-12a35a1c1e39" />
     </dependencies>
   </settings>
   <regions type="content">
@@ -47,7 +48,7 @@
       <math>
         <input>
           <e type="operand">G</e>
-          <e type="operand">50</e>
+          <e type="operand">20</e>
           <e type="operator" args="2">:</e>
         </input>
       </math>
@@ -72,7 +73,7 @@
         </input>
       </math>
     </region>
-    <region left="171" top="108" width="231" height="43" color="#000000" fontSize="10">
+    <region left="171" top="108" width="239" height="43" color="#000000" fontSize="10">
       <math>
         <input>
           <e type="operand">maxV_drop</e>
@@ -87,7 +88,7 @@
           <e type="bracket">(</e>
         </input>
         <result action="numeric">
-          <e type="operand">0.033</e>
+          <e type="operand">0.0825</e>
           <e type="operand" style="unit">V</e>
           <e type="operator" args="2">*</e>
         </result>
@@ -103,13 +104,13 @@
           <e type="operator" args="2">:</e>
         </input>
         <result action="numeric">
-          <e type="operand">0.0022</e>
+          <e type="operand">0.0055</e>
           <e type="operand" style="unit">Ω</e>
           <e type="operator" args="2">*</e>
         </result>
       </math>
     </region>
-    <region left="180" top="207" width="249" height="33" color="#000000" fontSize="10">
+    <region left="180" top="207" width="257" height="33" color="#000000" fontSize="10">
       <math>
         <input>
           <e type="operand">P_sense</e>
@@ -121,7 +122,7 @@
           <e type="operator" args="2">:</e>
         </input>
         <result action="numeric">
-          <e type="operand">0.495</e>
+          <e type="operand">1.2375</e>
           <e type="operand" style="unit">W</e>
           <e type="operator" args="2">*</e>
         </result>
@@ -152,7 +153,7 @@
           <e type="operator" args="2">:</e>
         </input>
         <result action="numeric">
-          <e type="operand">1.5</e>
+          <e type="operand">0.6</e>
           <e type="operand" style="unit">V</e>
           <e type="operator" args="2">*</e>
         </result>
